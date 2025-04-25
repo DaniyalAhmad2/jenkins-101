@@ -25,6 +25,7 @@ pipeline {
                     . .venv/bin/activate           # re-activate in this step
                     python myapp/hello.py
                     python myapp/hello.py --name Brad
+                    python myapp/hello.py --name Daniyal
                 '''
             }
         }
